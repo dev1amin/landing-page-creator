@@ -1,0 +1,358 @@
+# Landing Creator Pro - Documentação
+
+## 1. Visão Geral do Sistema
+
+O Landing Creator Pro é uma plataforma especializada na criação e gerenciamento de landing pages dinâmicas, oferecendo três níveis de personalização (Básico, Avançado e Pro). O sistema permite que os clientes escolham templates predefinidos e personalizem seus conteúdos através de um painel administrativo intuitivo acessível via /admin.
+
+### 1.1 Principais Características
+
+- Sistema baseado em blocos modulares
+- Painel administrativo intuitivo
+- Templates responsivos e profissionais
+- Hospedagem via Vercel
+- Gerenciamento via GitHub
+- Zero dependência de banco de dados
+- Personalização em tempo real
+- Sistema de upload de imagens integrado
+- Personalização avançada de cores e estilos
+- Suporte a múltiplos tipos de fontes
+
+## 2. Sistema de Blocos
+
+O Landing Creator Pro utiliza um sistema modular de blocos que permite a construção flexível de landing pages. Cada bloco representa uma seção específica da página e pode ser totalmente personalizado.
+
+### 2.1 Blocos Disponíveis
+
+1. **Hero (Cabeçalho Principal)**
+   - Título principal
+   - Subtítulo
+   - Botão de chamada para ação (CTA)
+   - Imagem principal
+   - Personalização de cores
+   - Alinhamento personalizável
+
+2. **Features (Recursos)**
+   - Título da seção
+   - Múltiplos recursos
+   - Ícones personalizáveis
+   - Descrições
+   - Layout em grid
+   - Imagens por recurso
+
+3. **Testimonials (Depoimentos)**
+   - Título da seção
+   - Depoimentos de clientes
+   - Fotos dos clientes
+   - Nome e cargo
+   - Avaliação em estrelas (opcional)
+   - Background personalizado
+
+4. **Video (Vídeo)**
+   - Título da seção
+   - Incorporação de vídeo (YouTube/Vimeo)
+   - Descrição
+   - Thumbnail personalizada
+   - Controles de reprodução
+
+5. **About (Sobre)**
+   - Título da seção
+   - Texto descritivo
+   - Imagem
+   - Estatísticas (opcional)
+   - Layout responsivo
+
+6. **Services (Serviços)**
+   - Título da seção
+   - Lista de serviços
+   - Ícones ou imagens
+   - Preços (opcional)
+   - Descrições
+   - Links personalizados
+
+7. **CTA (Chamada para Ação)**
+   - Título chamativo
+   - Texto persuasivo
+   - Botão personalizado
+   - Link configurável
+   - Cores personalizáveis
+
+8. **Pricing (Preços)**
+   - Tabelas de preços
+   - Recursos por plano
+   - Botões de ação
+   - Destaque para plano recomendado
+   - Links personalizados
+   - Estilos personalizáveis
+
+9. **WhatsApp**
+   - Botão flutuante
+   - Número configurável
+   - Mensagem predefinida
+   - Posicionamento personalizado
+   - Cores personalizáveis
+
+10. **Instagram**
+    - Botão de redirecionamento
+    - Username configurável
+    - Posicionamento personalizado
+    - Cores personalizáveis
+    - Link direto para perfil
+
+11. **Facebook**
+    - Botão de redirecionamento
+    - URL da página configurável
+    - Posicionamento personalizado
+    - Cores personalizáveis
+    - Link direto para página
+
+12. **Custom (Personalizado)**
+    - HTML personalizado
+    - CSS personalizado
+    - Integração com scripts externos
+    - Estilização livre
+
+13. **Footer (Rodapé)**
+    - Logo personalizado
+    - Links de navegação
+    - Redes sociais
+    - Informações de contato
+    - Copyright
+    - Cor da borda separadora personalizável
+    - Texto adicional configurável
+
+### 2.2 Personalização dos Blocos
+
+Cada bloco pode ser personalizado em diferentes níveis, dependendo do plano:
+
+**Básico:**
+- Edição de textos
+- Troca de imagens
+- Links e botões
+- Cores básicas
+
+**Avançado:**
+- Todas as opções do plano Básico
+- Cores de fundo
+- Cores dos textos
+- Estilos dos botões
+- Fontes personalizadas
+- Espaçamentos
+
+**Pro:**
+- Todas as opções do plano Avançado
+- Movimentação de blocos
+- Adição/remoção de elementos
+- Personalização avançada de layout
+- HTML/CSS personalizado
+- Integrações avançadas
+
+## 3. Painel Administrativo
+
+### 3.1 Acesso
+- URL: /admin
+- Autenticação segura
+- Interface intuitiva e responsiva
+- Preview em tempo real
+
+### 3.2 Funcionalidades
+
+1. **Gerenciamento de Blocos**
+   - Adicionar novos blocos
+   - Remover blocos existentes
+   - Reordenar blocos (Pro)
+   - Duplicar blocos
+   - Preview em tempo real
+
+2. **Edição de Conteúdo**
+   - Editor de texto rico
+   - Upload de imagens otimizado
+   - Configuração de links
+   - Personalização de cores
+   - Seleção de fontes
+
+3. **Gerenciamento de Templates**
+   - Seleção de template
+   - Visualização prévia
+   - Troca de template (planos Avançado e Pro)
+   - Personalização por template
+
+4. **Configurações Globais**
+   - Cores principais
+   - Fontes (títulos e texto)
+   - Estilos globais
+   - SEO básico
+   - Integrações de mídia social
+
+5. **Sistema de Upload**
+   - Suporte a múltiplos formatos
+   - Otimização automática
+   - Preview de imagens
+   - Redimensionamento automático
+   - Armazenamento otimizado
+
+## 4. Templates
+
+### 4.1 Template 1 - Startup
+- Design moderno e dinâmico
+- Foco em conversão
+- Seções otimizadas para produtos/serviços
+- Integração com mídias sociais
+- Formulários de captura
+
+### 4.2 Template 2 - Consultoria
+- Layout profissional
+- Foco em credibilidade
+- Seções para cases e resultados
+- Integração com calendário
+- Formulário de contato
+
+### 4.3 Template 3 - Advocacia
+- Design elegante e sóbrio
+- Áreas de atuação em destaque
+- Seção de artigos/blog
+- Formulário de consulta
+- Integração com WhatsApp
+
+### 4.4 Template 4 - Impressão Digital
+- Galeria de produtos
+- Formulário de orçamento
+- Showcase de trabalhos
+- Integração com e-commerce
+- Calculadora de preços
+
+### 4.5 Template 5 - Inovação
+- Design futurista
+- Animações suaves
+- Demonstração de produtos
+- Integração com vídeos
+- Chat em tempo real
+
+## 5. Instruções de Uso
+
+### 5.1 Primeiros Passos
+
+1. Acesse o painel administrativo (/admin)
+2. Escolha um template base
+3. Personalize o conteúdo inicial
+4. Configure as cores globais e fontes
+5. Adicione os blocos desejados
+6. Configure integrações sociais
+
+### 5.2 Edição de Blocos
+
+1. Clique no bloco para editar
+2. Use o painel lateral para personalização
+3. Visualize as alterações em tempo real
+4. Configure cores e estilos
+5. Ajuste espaçamentos e alinhamentos
+6. Salve as modificações
+
+### 5.3 Reordenação de Blocos (Pro)
+
+1. Use as setas ↑↓ para mover blocos
+2. Arraste e solte para reordenar
+3. Visualize as alterações
+4. Duplique blocos se necessário
+5. Salve a nova organização
+
+### 5.4 Gerenciamento de Imagens
+
+1. Clique no botão de upload
+2. Selecione ou arraste a imagem
+3. Recorte se necessário
+4. Otimização automática
+5. Preview em tempo real
+6. Confirme o upload
+
+## 6. Considerações Técnicas
+
+### 6.1 Hospedagem
+- Plataforma: Vercel
+- Domínio: nome-do-cliente.vercel.app
+- SSL automático
+- CDN global
+
+### 6.2 Versionamento
+- GitHub para armazenamento
+- Commits automáticos
+- Histórico de alterações
+- Backup automático
+
+### 6.3 Performance
+- Otimização automática de imagens
+- Código minificado
+- Cache eficiente
+- Carregamento lazy
+- Compressão de assets
+
+### 6.4 Segurança
+- Autenticação segura
+- HTTPS forçado
+- Proteção contra ataques comuns
+- Backups automáticos
+- Monitoramento constante
+
+## 7. Suporte
+
+### 7.1 Documentação
+- Guias passo a passo
+- Vídeos tutoriais
+- FAQ completo
+- Base de conhecimento
+
+### 7.2 Contato
+- Email: suporte@landingcreator.pro
+- WhatsApp: Configure no painel
+- Horário: 9h às 18h (dias úteis)
+- Chat online
+
+## 8. Atualizações e Melhorias
+
+O sistema recebe atualizações regulares com:
+- Novos blocos
+- Melhorias de performance
+- Correções de bugs
+- Novos templates
+- Novas funcionalidades
+- Otimizações de segurança
+
+## 9. Recomendações de Uso
+
+1. Mantenha textos concisos e objetivos
+2. Use imagens de alta qualidade
+3. Teste em diferentes dispositivos
+4. Mantenha a identidade visual consistente
+5. Atualize o conteúdo regularmente
+6. Monitore métricas de conversão
+7. Otimize para SEO
+8. Mantenha backups regulares
+
+## 10. Recursos Adicionais
+
+### 10.1 Integrações
+- Redes sociais
+- Ferramentas de analytics
+- Sistemas de email marketing
+- CRMs
+- Plataformas de pagamento
+
+### 10.2 Personalização Avançada
+- Fontes personalizadas
+- Paletas de cores
+- Elementos interativos
+- Animações
+- Layouts responsivos
+
+### 10.3 SEO
+- Meta tags otimizadas
+- URLs amigáveis
+- Sitemap automático
+- Schema markup
+- Open Graph tags
+
+---
+
+Para mais informações ou suporte técnico, entre em contato com nossa equipe de suporte.
+
+Última atualização: Janeiro 2024
+
