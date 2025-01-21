@@ -1,9 +1,9 @@
 import { ContentData, DEFAULT_CONTENT } from '@/types/content'
 
 const GITHUB_API_URL = 'https://api.github.com'
-const OWNER = process.env.GITHUB_OWNER || 'dev1amin'
-const REPO = process.env.GITHUB_REPO || 'rogerio'
-const TOKEN = process.env.GITHUB_TOKEN || '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'
+const OWNER = process.env.GITHUB_OWNER
+const REPO = process.env.GITHUB_REPO
+const TOKEN = process.env.GITHUB_TOKEN
 
 export async function getContent(): Promise<ContentData> {
   if (!TOKEN || !OWNER || !REPO) {

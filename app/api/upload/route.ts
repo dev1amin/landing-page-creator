@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server'
-import { headers } from 'next/headers'
 
 const IMGUR_CLIENT_ID = '13b845189b038c8'
 
@@ -15,7 +14,7 @@ export async function POST(request: Request) {
 
     const formData = await request.formData()
     const file = formData.get('file') as File
-    
+
     if (!file) {
       return NextResponse.json(
         { error: 'Nenhum arquivo enviado' },
@@ -80,10 +79,3 @@ export async function POST(request: Request) {
     )
   }
 }
-
-export const config = {
-  api: {
-    bodyParser: false
-  }
-}
-
